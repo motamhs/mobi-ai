@@ -11,7 +11,7 @@ Bem-vindo à documentação oficial do **MOBI AI** – um projeto de transforma�
 
 ---
 
-## 📘 Objetivo da Documentação
+## Objetivo da Documentação
 
 Esta documentação tem como objetivo:
 
@@ -24,16 +24,15 @@ Esta documentação tem como objetivo:
 
 ---
 
-## 🏢 Público-Alvo
+## Público-Alvo
 
-- Profissionais e gestores da Bosch
-- Supervisores e avaliadores do SENAI
-- Desenvolvedores e colegas técnicos
-- Futuros alunos e parceiros interessados na iniciativa
+- Profissionais da Bosch
+- Pessoal da área M/MKR
+- Pessoas que dependem de Market Report para tomada de decisão
 
 ---
 
-## 🗂 Estrutura da Documentação
+## Estrutura da Documentação
 
 A documentação está organizada em oito seções principais:
 
