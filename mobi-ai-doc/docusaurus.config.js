@@ -25,7 +25,7 @@ const config = {
   // Internationalization settings
   i18n: {
     defaultLocale: "pt-BR",
-    locales: ["pt-BR", "en"],
+    locales: ["pt-BR"],
   },
 
   // Theme and site configuration
