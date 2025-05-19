@@ -147,11 +147,11 @@ const config = {
               { to: "/docs/visao-geral/sobre", label: "Visão Geral" },
               { to: "/docs/arquitetura/ia-extracao", label: "Arquitetura" },
               {
-                to: "/docs/problema-solucao/problema-solucao",
-                label: "Problema e Solução",
+                to: "/docs/problema-solucao",
+                label: "Problemática e Solução",
               },
               {
-                to: "/docs/melhorias-futuras/melhorias-futuras",
+                to: "/docs/melhorias-futuras",
                 label: "Melhorias Futuras",
               },
             ],
@@ -160,10 +160,9 @@ const config = {
             label: "Projeto",
             position: "left",
             items: [
-              { to: "/docs/equipe/equipe", label: "Equipe" },
-              { to: "/docs/cronograma/cronograma", label: "Cronograma" },
-              { to: "/docs/custos/custos", label: "Custos" },
-              // { to: "/docs/resultados/resultados", label: "Resultados" },
+              { to: "/docs/equipe", label: "Equipe" },
+              { to: "/docs/cronograma", label: "Cronograma" },
+              { to: "/docs/custos", label: "Custos" },
             ],
           },
           {
@@ -179,14 +178,14 @@ const config = {
         ],
       },
 
-      // Footer configuration
+      // Footer
       footer: {
         style: "dark",
         logo: {
           alt: "Logo Bosch",
           src: "img/logo-empresa.png",
           href: "https://www.bosch.com.br",
-          height: 40,
+          className: "footer__logo-right",
         },
         links: [
           {
@@ -238,29 +237,18 @@ const config = {
         copyright: `© ${new Date().getFullYear()} MOBI AI — Desenvolvido por alunos do SENAI com apoio da Bosch. Todos os direitos reservados.`,
       },
 
-      // Prism syntax highlighting
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['python', 'csharp', 'java'],
       },
       
-      // Algolia DocSearch configuration (se desejar implementar busca)
-      /* algolia: {
-        appId: 'YOUR_APP_ID',
-        apiKey: 'YOUR_SEARCH_API_KEY',
-        indexName: 'YOUR_INDEX_NAME',
-        contextualSearch: true,
-      }, */
-      
-      // Metadata for docs
       metadata: [
         {name: 'keywords', content: 'mobi, ai, inteligência artificial, mercado automotivo, bosch, senai'},
         {name: 'description', content: 'MOBI AI - Plataforma de IA para geração automatizada de relatórios do mercado automotivo'},
-        {name: 'author', content: 'Equipe MOBI AI - SENAI/Bosch'},
+        {name: 'author', content: 'Equipe MOBI AI | Gabrielly Lisboa | Isabella Souza | Julia Siqueira | Leonardo Taborda - SENAI/Bosch'},
       ],
       
-      // Table of contents settings
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 4,
