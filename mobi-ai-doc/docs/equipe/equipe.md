@@ -44,7 +44,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     <img src={useBaseUrl('/img/images/JuliaSiqueira-image.png')} alt="Julia Siqueira" 
       style={{width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #007bc0'}} />
     <p style={{marginTop: '10px', marginBottom: '2px', fontWeight: 'bold'}}>Julia Siqueira</p>
-    <p style={{fontSize: '0.9rem', color: '#666', margin: 0}}>Front End, UX/UI Designer</p>
+    <p style={{fontSize: '0.9rem', color: '#666', margin: 0}}>Full Stack Developer</p>
   </div>
   
   <div style={{textAlign: 'center', width: '200px', marginBottom: '-5px'}}>
@@ -154,7 +154,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
       </div>
       <div>
         <h3 style={{margin: '0 0 5px 0'}}>Isabella Souza</h3>
-        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Back End e Inteligência Artificial</p>
+        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Back End Developer e IA</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
           <a href="mailto:isabella.souza114@hotmail.com" style={{
             display: 'flex',
@@ -217,7 +217,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
       </div>
       <div>
         <h3 style={{margin: '0 0 5px 0'}}>Julia Siqueira</h3>
-        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Front End, UX/UI Designer</p>
+        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Full Stack Developer</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
           <a href="mailto:juliarrsiqueira@gmail.com" style={{
             display: 'flex',
