@@ -4,27 +4,321 @@ title: Equipe
 description: Apresentação da equipe responsável pelo desenvolvimento do MOBI AI.
 ---
 
-# Equipe
+# Equipe MOBI AI
 
 > Conheça os integrantes responsáveis pelo desenvolvimento técnico e estratégico do projeto MOBI AI.
 
-## 👩‍💻 Equipe Técnica
+## Equipe Técnica
 
-| Nome                 | Função                                 |
-|----------------------|----------------------------------------|
-| **Gabrielly Lisboa** | Full Stack Developer e IA              |
-| **Isabella Souza**   | Back End e Inteligência Artificial     |
-| **Julia Siqueira**   | Front End, UX/UI Designer              |
-| **Leonardo Taborda** | Front End Developer e UX/UI            |
+Nossa equipe multidisciplinar reúne talentos em desenvolvimento, design e inteligência artificial para criar soluções inovadoras.
+
+| Membro | Função | Especialidade |
+|--------|--------|--------------|
+| **Gabrielly Lisboa** | Full Stack Developer | Desenvolvimento integrado e IA |
+| **Isabella Souza** | Back End Developer | Arquitetura de sistemas e Inteligência Artificial |
+| **Julia Siqueira** | UX/UI Designer | Design de interfaces e experiência do usuário |
+| **Leonardo Taborda** | Front End Developer | Interfaces responsivas e UX/UI |
 
 ---
 
-## 📷 Fotos da Equipe
+## Nosso Time
 
-> As imagens abaixo serão adicionadas futuramente para valorizar a apresentação da equipe.
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-```markdown
-![Gabrielly Lisboa](./imagens/gabrielly.jpg)
-![Isabella Souza](./imagens/isabella.jpg)
-![Julia Siqueira](./imagens/julia.jpg)
-![Leonardo Taborda](./imagens/leonardo.jpg)
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '20px', margin: '30px 0'}}>
+  <div style={{textAlign: 'center', width: '200px', marginBottom: '20px'}}>
+    <img src={useBaseUrl('/img/images/GabriellyLisboa-image.png')} alt="Gabrielly Lisboa" 
+      style={{width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #007bc0'}} />
+    <p style={{marginTop: '10px', marginBottom: '2px', fontWeight: 'bold'}}>Gabrielly Lisboa</p>
+    <p style={{fontSize: '0.9rem', color: '#666', margin: 0}}>Full Stack Developer e IA</p>
+  </div>
+  
+  <div style={{textAlign: 'center', width: '200px', marginBottom: '20px'}}>
+    <img src={useBaseUrl('/img/images/IsabellaSouza-image.png')} alt="Isabella Souza" 
+      style={{width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #007bc0'}} />
+    <p style={{marginTop: '10px', marginBottom: '2px', fontWeight: 'bold'}}>Isabella Souza</p>
+    <p style={{fontSize: '0.9rem', color: '#666', margin: 0}}>Back End e Inteligência Artificial</p>
+  </div>
+  
+  <div style={{textAlign: 'center', width: '200px', marginBottom: '20px'}}>
+    <img src={useBaseUrl('/img/images/JuliaSiqueira-image.png')} alt="Julia Siqueira" 
+      style={{width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #007bc0'}} />
+    <p style={{marginTop: '10px', marginBottom: '2px', fontWeight: 'bold'}}>Julia Siqueira</p>
+    <p style={{fontSize: '0.9rem', color: '#666', margin: 0}}>Front End, UX/UI Designer</p>
+  </div>
+  
+  <div style={{textAlign: 'center', width: '200px', marginBottom: '-5px'}}>
+    <img src={useBaseUrl('/img/images/LeonardoTaborda-image.png')} alt="Leonardo Taborda" 
+      style={{width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #007bc0'}} />
+    <p style={{marginTop: '10px', marginBottom: '2px', fontWeight: 'bold'}}>Leonardo Taborda</p>
+    <p style={{fontSize: '0.9rem', color: '#666', margin: 0}}>Front End Developer e UX/UI</p>
+  </div>
+</div>
+
+---
+
+## Contatos e Redes 
+
+import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-icons/fa';
+
+<div style={{marginTop: '20px', marginBottom: '40px'}}>
+  <div style={{
+    display: 'flex', 
+    flexDirection: 'column',
+    gap: '25px',
+    maxWidth: '800px',
+    margin: '0 auto'
+  }}>
+    {/* Gabrielly Lisboa */}
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      padding: '15px',
+      borderRadius: '10px',
+      backgroundColor: 'var(--ifm-color-emphasis-100)',
+      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
+    }}>
+      <div style={{
+        borderRadius: '50%',
+        overflow: 'hidden',
+        width: '70px',
+        height: '70px',
+        marginRight: '20px',
+        flexShrink: 0
+      }}>
+        <img src={useBaseUrl('/img/images/GabriellyLisboa-image.png')} alt="Gabrielly Lisboa" 
+          style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+      </div>
+      <div>
+        <h3 style={{margin: '0 0 5px 0'}}>Gabrielly Lisboa</h3>
+        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Full Stack Developer e IA</p>
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
+          <a href="mailto:gabriellylisboaa@gmail.com" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaEnvelope style={{marginRight: '5px'}} /> gabriellylisboaa@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/gabrielly-lisboa-b2830621b/" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaLinkedin style={{marginRight: '5px'}} /> LinkedIn
+          </a>
+          <a href="https://github.com/Gaby-Lisboa" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaGithub style={{marginRight: '5px'}} /> GitHub
+          </a>
+          <span style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'var(--ifm-color-emphasis-700)',
+            fontSize: '0.85rem'
+          }}>
+            <FaWhatsapp style={{color: '#26bd4e'}} /> (19) 99447-2517
+          </span>
+        </div>
+      </div>
+    </div>
+
+    {/* Isabella Souza */}
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      padding: '15px',
+      borderRadius: '10px',
+      backgroundColor: 'var(--ifm-color-emphasis-100)',
+      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
+    }}>
+      <div style={{
+        borderRadius: '50%',
+        overflow: 'hidden',
+        width: '70px',
+        height: '70px',
+        marginRight: '20px',
+        flexShrink: 0
+      }}>
+        <img src={useBaseUrl('/img/images/IsabellaSouza-image.png')} alt="Isabella Souza" 
+          style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+      </div>
+      <div>
+        <h3 style={{margin: '0 0 5px 0'}}>Isabella Souza</h3>
+        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Back End e Inteligência Artificial</p>
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
+          <a href="mailto:isabella.souza114@hotmail.com" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaEnvelope style={{marginRight: '5px'}} /> isabella.souza114@hotmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/isabella-souza-365a79293/" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaLinkedin style={{marginRight: '5px'}} /> LinkedIn
+          </a>
+          <a href="https://github.com/is2bwlla" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaGithub style={{marginRight: '5px'}} /> GitHub
+          </a>
+          <span style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'var(--ifm-color-emphasis-700)',
+            fontSize: '0.85rem'
+          }}>
+            <FaWhatsapp style={{color: "#26bd4e"}} /> & <FaPhone style={{marginRight: '5px'}} /> (19) 99659-9586
+          </span>
+        </div>
+      </div>
+    </div>
+
+    {/* Julia Siqueira */}
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      padding: '15px',
+      borderRadius: '10px',
+      backgroundColor: 'var(--ifm-color-emphasis-100)',
+      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
+    }}>
+      <div style={{
+        borderRadius: '50%',
+        overflow: 'hidden',
+        width: '70px',
+        height: '70px',
+        marginRight: '20px',
+        flexShrink: 0
+      }}>
+        <img src={useBaseUrl('/img/images/JuliaSiqueira-image.png')} alt="Julia Siqueira" 
+          style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+      </div>
+      <div>
+        <h3 style={{margin: '0 0 5px 0'}}>Julia Siqueira</h3>
+        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Front End, UX/UI Designer</p>
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
+          <a href="mailto:juliarrsiqueira@gmail.com" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaEnvelope style={{marginRight: '5px'}} /> juliarrsiqueira@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/julia-siqueira-8537a2262/" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaLinkedin style={{marginRight: '5px'}} /> LinkedIn
+          </a>
+          <a href="https://github.com/Julia-Siqueira" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaGithub style={{marginRight: '5px'}} /> GitHub
+          </a>
+          <span style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'var(--ifm-color-emphasis-700)',
+            fontSize: '0.85rem'
+          }}>
+            <FaWhatsapp style={{color: "#26bd4e"}} /> & <FaPhone style={{marginRight: '5px'}} /> (19) 98768-8950
+          </span>
+        </div>
+      </div>
+    </div>
+
+    {/* Leonardo Taborda */}
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      padding: '15px',
+      borderRadius: '10px',
+      backgroundColor: 'var(--ifm-color-emphasis-100)',
+      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
+    }}>
+      <div style={{
+        borderRadius: '50%',
+        overflow: 'hidden',
+        width: '70px',
+        height: '70px',
+        marginRight: '20px',
+        flexShrink: 0
+      }}>
+        <img src={useBaseUrl('/img/images/LeonardoTaborda-image.png')} alt="Leonardo Taborda" 
+          style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+      </div>
+      <div>
+        <h3 style={{margin: '0 0 5px 0'}}>Leonardo Taborda</h3>
+        <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Front End Developer e UX/UI</p>
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
+          <a href="mailto:leo.tabordaa@icloud.com" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaEnvelope style={{marginRight: '5px'}} /> leo.tabordaa@icloud.com
+          </a>
+          <a href="https://www.linkedin.com/in/leonardo-taborda-de-oliveira-361019255/" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaLinkedin style={{marginRight: '5px'}} /> LinkedIn
+          </a>
+          <a href="https://github.com/leotaborda" target="_blank" style={{
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            color: 'var(--ifm-color-primary)',
+            fontSize: '0.85rem'
+          }}>
+            <FaGithub style={{marginRight: '5px'}} /> GitHub
+          </a>
+          <span style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'var(--ifm-color-emphasis-700)',
+            fontSize: '0.85rem'
+          }}>
+            <FaWhatsapp style={{color: "#26bd4e"}} /> & <FaPhone style={{marginRight: '5px'}} /> (19) 98973-1191
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
