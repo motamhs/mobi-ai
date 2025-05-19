@@ -10,7 +10,7 @@ description: Propostas de aprimoramento e expansão do projeto MOBI AI após a e
 
 ## Visão Estratégica
 
-Com o MVP validado e os principais módulos implementados, identificamos oportunidades claras de evolução para aumentar a eficiência, escalabilidade e impacto do projeto.
+Com o MVP validado e os principais módulos implementados, identificamos oportunidades de evolução para aumentar a eficiência, escalabilidade e impacto do projeto.
 
 ---
 
@@ -18,7 +18,7 @@ Com o MVP validado e os principais módulos implementados, identificamos oportun
 
 | Área                        | Proposta                                                  | Impacto Esperado                      |
 |-----------------------------|-----------------------------------------------------------|----------------------------------------|
-| **IA de Extração**          | Adicionar validação semântica e autoaprendizado (fine-tuning) | Aumento de precisão na coleta de dados |
+| **IA de Extração**          | Adicionar validação semântica e autoaprendizado           | Aumento de precisão na coleta de dados |
 | **NewsAPI**                 | Integração com múltiplas fontes (fallback inteligente)    | Aumento da confiabilidade das notícias |
 | **Gerador de Slides**       | Suporte a gráficos interativos e exportação para PDF      | Melhoria na qualidade das apresentações |
 | **Newsletter**              | Monitoramento de engajamento e versão multilíngue         | Aumento da efetividade da comunicação  |
