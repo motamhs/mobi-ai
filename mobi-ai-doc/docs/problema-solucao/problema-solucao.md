@@ -10,19 +10,18 @@ description: Diagnóstico do cenário anterior e apresentação da proposta reso
 
 ---
 
-## ❗ Problema Identificado
+## Problema Identificado
 
 O processo de criação do Market Report (MKR) na Bosch era:
 
 - Totalmente **manual** e **descentralizado**
 - Dependente de **curadoria individual de notícias**
-- Demandava **múltiplos dias de trabalho**
+- Demandava **alguns dias de trabalho**
 - Sujeito a **inconsistência nos dados** e **formatação**
-- Dificuldade de **manter frequência mensal com qualidade**
 
 ---
 
-## 💡 Solução Proposta: MOBI AI
+## Solução Proposta: MOBI AI
 
 A resposta ao problema foi a criação de uma plataforma inteligente e automatizada para a geração do MKR, com os seguintes pilares:
 
@@ -36,13 +35,13 @@ A resposta ao problema foi a criação de uma plataforma inteligente e automatiz
 
 ---
 
-## 🧠 Inteligência Aplicada
+## Inteligência Aplicada
 
 Ao unir **automação de processos**, **linguagem natural**, **sumarização inteligente** e **integração de dados**, o MOBI AI elimina gargalos e eleva a eficiência operacional da criação de relatórios.
 
 ---
 
-## 🔄 Antes e Depois
+## Antes e Depois
 
 | Etapa                    | Processo Anterior         | Com MOBI AI                    |
 |--------------------------|---------------------------|--------------------------------|
@@ -54,4 +53,4 @@ Ao unir **automação de processos**, **linguagem natural**, **sumarização int
 
 ---
 
-> O MOBI AI não apenas resolve o problema inicial, mas também propõe uma nova forma de pensar a inteligência de mercado no setor automotivo.
+> O MOBI AI não apenas resolve o problema inicial, mas também propõe uma nova forma de pensar com a inteligência de mercado no setor automotivo.
