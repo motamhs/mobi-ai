@@ -59,7 +59,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Contatos e Redes 
 
-import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone, FaUser } from 'react-icons/fa';
 
 <div style={{marginTop: '20px', marginBottom: '40px'}}>
   <div style={{
@@ -93,14 +93,14 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
         <h3 style={{margin: '0 0 5px 0'}}>Gabrielly Lisboa</h3>
         <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Full Stack Developer e IA</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
-          <a href="mailto:gabriellylisboaa@gmail.com" style={{
+          <a style={{
             display: 'flex',
             alignItems: 'center',
             textDecoration: 'none',
             color: 'var(--ifm-color-primary)',
             fontSize: '0.85rem'
           }}>
-            <FaEnvelope style={{marginRight: '5px'}} /> gabriellylisboaa@gmail.com
+            <FaUser style={{marginRight: '5px'}} /> Gabrielly Lisboa
           </a>
           <a href="https://www.linkedin.com/in/gabrielly-lisboa-b2830621b/" target="_blank" style={{
             display: 'flex',
@@ -120,14 +120,6 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
           }}>
             <FaGithub style={{marginRight: '5px'}} /> GitHub
           </a>
-          <span style={{
-            display: 'flex',
-            alignItems: 'center',
-            color: 'var(--ifm-color-emphasis-700)',
-            fontSize: '0.85rem'
-          }}>
-            <FaWhatsapp style={{color: '#26bd4e'}} /> (19) 99447-2517
-          </span>
         </div>
       </div>
     </div>
@@ -156,14 +148,14 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
         <h3 style={{margin: '0 0 5px 0'}}>Isabella Souza</h3>
         <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Back End Developer e IA</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
-          <a href="mailto:isabella.souza114@hotmail.com" style={{
+          <a style={{
             display: 'flex',
             alignItems: 'center',
             textDecoration: 'none',
             color: 'var(--ifm-color-primary)',
             fontSize: '0.85rem'
           }}>
-            <FaEnvelope style={{marginRight: '5px'}} /> isabella.souza114@hotmail.com
+            <FaUser style={{marginRight: '5px'}} /> Isabella Souza
           </a>
           <a href="https://www.linkedin.com/in/isabella-souza-365a79293/" target="_blank" style={{
             display: 'flex',
@@ -183,14 +175,6 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
           }}>
             <FaGithub style={{marginRight: '5px'}} /> GitHub
           </a>
-          <span style={{
-            display: 'flex',
-            alignItems: 'center',
-            color: 'var(--ifm-color-emphasis-700)',
-            fontSize: '0.85rem'
-          }}>
-            <FaWhatsapp style={{color: "#26bd4e"}} /> & <FaPhone style={{marginRight: '5px'}} /> (19) 99659-9586
-          </span>
         </div>
       </div>
     </div>
@@ -219,14 +203,14 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
         <h3 style={{margin: '0 0 5px 0'}}>Julia Siqueira</h3>
         <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Full Stack Developer</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
-          <a href="mailto:juliarrsiqueira@gmail.com" style={{
+          <a style={{
             display: 'flex',
             alignItems: 'center',
             textDecoration: 'none',
             color: 'var(--ifm-color-primary)',
             fontSize: '0.85rem'
           }}>
-            <FaEnvelope style={{marginRight: '5px'}} /> juliarrsiqueira@gmail.com
+            <FaUser style={{marginRight: '5px'}} /> Julia Siqueira
           </a>
           <a href="https://www.linkedin.com/in/julia-siqueira-8537a2262/" target="_blank" style={{
             display: 'flex',
@@ -246,14 +230,6 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
           }}>
             <FaGithub style={{marginRight: '5px'}} /> GitHub
           </a>
-          <span style={{
-            display: 'flex',
-            alignItems: 'center',
-            color: 'var(--ifm-color-emphasis-700)',
-            fontSize: '0.85rem'
-          }}>
-            <FaWhatsapp style={{color: "#26bd4e"}} /> & <FaPhone style={{marginRight: '5px'}} /> (19) 98768-8950
-          </span>
         </div>
       </div>
     </div>
@@ -282,14 +258,14 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
         <h3 style={{margin: '0 0 5px 0'}}>Leonardo Taborda</h3>
         <p style={{margin: '0 0 10px 0', fontSize: '0.9rem', opacity: '0.8'}}>Front End Developer e UX/UI</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
-          <a href="mailto:leo.tabordaa@icloud.com" style={{
+          <a style={{
             display: 'flex',
             alignItems: 'center',
             textDecoration: 'none',
             color: 'var(--ifm-color-primary)',
             fontSize: '0.85rem'
           }}>
-            <FaEnvelope style={{marginRight: '5px'}} /> leo.tabordaa@icloud.com
+            <FaUser style={{marginRight: '5px'}} /> Leonardo Oliveira
           </a>
           <a href="https://www.linkedin.com/in/leonardo-taborda-de-oliveira-361019255/" target="_blank" style={{
             display: 'flex',
@@ -309,14 +285,6 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from 'react-ico
           }}>
             <FaGithub style={{marginRight: '5px'}} /> GitHub
           </a>
-          <span style={{
-            display: 'flex',
-            alignItems: 'center',
-            color: 'var(--ifm-color-emphasis-700)',
-            fontSize: '0.85rem'
-          }}>
-            <FaWhatsapp style={{color: "#26bd4e"}} /> & <FaPhone style={{marginRight: '5px'}} /> (19) 98973-1191
-          </span>
         </div>
       </div>
     </div>
