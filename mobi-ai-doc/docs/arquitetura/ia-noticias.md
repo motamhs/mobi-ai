@@ -8,11 +8,11 @@ description: Arquitetura e funcionamento da IA responsável por buscar, filtrar 
 
 > Esta seção apresenta o funcionamento da inteligência artificial desenvolvida para automatizar a curadoria e sumarização de notícias do setor automotivo.
 
-## 📌 Objetivo
+## Objetivo
 
 Automatizar a coleta, filtragem e resumo de notícias do setor automotivo, substituindo o processo manual de pesquisa e leitura, garantindo agilidade e relevância no conteúdo do Market Report (MKR).
 
-## ⚙️ Como Funciona
+## Como Funciona
 
 A IA de Notícias segue um pipeline bem definido, baseado em APIs de notícias, filtros semânticos e modelos de linguagem avançados:
 
@@ -31,7 +31,7 @@ A IA de Notícias segue um pipeline bem definido, baseado em APIs de notícias, 
 4. **Integração com o Relatório Final**  
    Os resumos são organizados por temas e integrados automaticamente na seção de “Principais Notícias do Mês” do MKR.
 
-## 🛠️ Tecnologias Empregadas
+## Tecnologias Empregadas
 
 | Tecnologia        | Função Principal                                |
 |-------------------|-------------------------------------------------|
@@ -40,14 +40,14 @@ A IA de Notícias segue um pipeline bem definido, baseado em APIs de notícias, 
 | LangChain         | Orquestração de prompts e tratamento de contexto|
 | Python            | Automatização dos fluxos de integração          |
 
-## 🎯 Benefícios para o Negócio
+## Benefícios para o Negócio
 
 - **Eficiência**: Redução significativa no tempo de coleta e leitura de notícias.
 - **Atualização**: Informações sempre atualizadas com base em fontes públicas e confiáveis.
 - **Consistência**: Padrão de linguagem unificado nos resumos.
 - **Relevância**: Foco em notícias com impacto direto no mercado de mobilidade e automóveis.
 
-## 🔍 Próximos Passos Técnicos
+## Próximos Passos Técnicos
 
 - Integração com múltiplas fontes de notícia (fallback)
 - Criação de um score automático de relevância
