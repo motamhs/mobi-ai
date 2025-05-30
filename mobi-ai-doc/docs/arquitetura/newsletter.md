@@ -8,11 +8,11 @@ description: Arquitetura do sistema responsável pela geração e envio automati
 
 > Este módulo é responsável por transformar os resultados do MOBI AI em um conteúdo distribuível por e-mail, garantindo alcance, praticidade e profissionalismo na comunicação interna.
 
-## 📌 Objetivo
+## Objetivo
 
 Automatizar o envio mensal do Market Report para os principais stakeholders, utilizando um formato de newsletter corporativa com informações resumidas, visuais e de fácil leitura.
 
-## ⚙️ Como Funciona
+## Como Funciona
 
 O fluxo de envio segue uma estrutura baseada na finalização do relatório:
 
@@ -31,7 +31,7 @@ O fluxo de envio segue uma estrutura baseada na finalização do relatório:
    - Lista de distribuição previamente configurada
    - Controle de envio com logs de sucesso/falha
 
-## 🛠️ Tecnologias Empregadas
+## Tecnologias Empregadas
 
 | Tecnologia      | Função Principal                                  |
 |------------------|--------------------------------------------------|
@@ -40,14 +40,14 @@ O fluxo de envio segue uma estrutura baseada na finalização do relatório:
 | Jinja2           | Template dinâmico para e-mails personalizados     |
 | Outlook API      | Alternativa corporativa para envios internos     |
 
-## 🎯 Benefícios para o Negócio
+## Benefícios para o Negócio
 
 - **Comunicação Eficiente**: Informações chegam diretamente aos destinatários sem necessidade de buscas manuais.
 - **Padronização Visual**: Garantia de profissionalismo e identidade institucional.
 - **Engajamento Interno**: Facilidade de acesso aos dados gera maior uso e valorização do conteúdo.
 - **Escalabilidade**: Possibilidade de envio para diversas áreas ou unidades da empresa.
 
-## 🔍 Próximos Passos Técnicos
+## Próximos Passos Técnicos
 
 - Monitoramento de abertura e engajamento dos e-mails
 - Integração com sistema interno de notificações da Bosch
