@@ -16,8 +16,8 @@ const config = {
   baseUrl: "/",
 
   // GitHub pages deployment config
-  organizationName: "bosch", 
-  projectName: "mobi-ai-doc", 
+  organizationName: "bosch",
+  projectName: "mobi-ai-doc",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -56,7 +56,7 @@ const config = {
           customCss: "./src/css/custom.css",
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
         },
       }),
@@ -66,7 +66,7 @@ const config = {
   // Plugins for enhanced functionality
   plugins: [
     [
-      '@docusaurus/plugin-ideal-image',
+      "@docusaurus/plugin-ideal-image",
       {
         quality: 70,
         max: 1030,
@@ -76,29 +76,29 @@ const config = {
       },
     ],
     [
-      '@docusaurus/plugin-pwa',
+      "@docusaurus/plugin-pwa",
       {
         debug: false,
         offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
+          "appInstalled",
+          "standalone",
+          "queryString",
         ],
         pwaHead: [
           {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/favicon.ico',
+            tagName: "link",
+            rel: "icon",
+            href: "/img/favicon.ico",
           },
           {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json',
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json",
           },
           {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: '#0064B0',
+            tagName: "meta",
+            name: "theme-color",
+            content: "#0064B0",
           },
         ],
       },
@@ -110,22 +110,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // SEO image settings
-      image: 'img/mobi-ai-social-card.jpg',
-      
+      image: "img/mobi-ai-social-card.jpg",
+
       // Color mode settings
       colorMode: {
         defaultMode: "light",
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      
+
       // Announcement banner for important notices
       announcementBar: {
-        id: 'support_project',
+        id: "support_project",
         content:
           '⭐️ Se você gosta do projeto MOBI AI, dê uma estrela no nosso <a target="_blank" rel="noopener noreferrer" href="https://github.com/leotaborda/mobi-ai">repositório GitHub</a>',
-        backgroundColor: '#00C2A2',
-        textColor: '#0A2540',
+        backgroundColor: "#00C2A2",
+        textColor: "#0A2540",
         isCloseable: true,
       },
 
@@ -166,8 +166,8 @@ const config = {
             ],
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
         ],
       },
@@ -193,20 +193,20 @@ const config = {
               },
               {
                 label: "Melhorias Futuras",
-                to: "/docs/melhorias-futuras/melhorias-futuras",
+                to: "/docs/melhorias-futuras",
               },
             ],
           },
           {
             title: "Parceiros",
             items: [
-              { 
-                label: "Bosch Campinas", 
-                href: "https://www.bosch.com.br/" 
+              {
+                label: "Bosch Campinas",
+                href: "https://www.bosch.com.br/",
               },
-              { 
-                label: "SENAI Roberto Mange", 
-                href: "https://sp.senai.br" 
+              {
+                label: "SENAI Roberto Mange",
+                href: "https://sp.senai.br",
               },
             ],
           },
@@ -230,15 +230,27 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['python'],
+        additionalLanguages: ["python"],
       },
-      
+
       metadata: [
-        {name: 'keywords', content: 'mobi, ai, inteligência artificial, mercado automotivo, bosch, senai'},
-        {name: 'description', content: 'MOBI AI - Plataforma de IA para geração automatizada de relatórios do mercado automotivo'},
-        {name: 'author', content: 'Equipe MOBI AI | Gabrielly Lisboa | Isabella Souza | Julia Siqueira | Leonardo Taborda - SENAI/Bosch'},
+        {
+          name: "keywords",
+          content:
+            "mobi, ai, inteligência artificial, mercado automotivo, bosch, senai",
+        },
+        {
+          name: "description",
+          content:
+            "MOBI AI - Plataforma de IA para geração automatizada de relatórios do mercado automotivo",
+        },
+        {
+          name: "author",
+          content:
+            "Equipe MOBI AI | Gabrielly Lisboa | Isabella Souza | Julia Siqueira | Leonardo Taborda - SENAI/Bosch",
+        },
       ],
-      
+
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 4,

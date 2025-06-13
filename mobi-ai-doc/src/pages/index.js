@@ -77,7 +77,7 @@ export default function Home() {
     {
       icon: <BrainCircuit size={44} />,
       title: 'IA de Extração',
-      text: 'Interpretação inteligente de PDFs automotivos com Azure Form Recognizer e processamento avançado de dados.'
+      text: 'Extração de dados inteligente de PDFs automotivos com Azure com modelo o4-mini e processamento avançado de dados.'
     },
     {
       icon: <FileText size={44} />,
@@ -98,8 +98,8 @@ export default function Home() {
 
   // Estatísticas de impacto
   const stats = [
-    { value: '97%', label: 'Redução no tempo de produção' },
-    { value: '89%', label: 'Maior consistência de dados' },
+    { value: '93%', label: 'Redução no tempo de produção' },
+    { value: '51%', label: 'Maior consistência de dados' },
     { value: '3.5x', label: 'Aumento na produtividade' }
   ];
 
@@ -146,7 +146,7 @@ export default function Home() {
             className="hero-description"
           >
             Plataforma corporativa que transforma relatórios manuais em processos automáticos
-            com IA, reduzindo dias de trabalho para minutos.
+            com IA, reduzindo horas de trabalho para minutos.
           </motion.p>
           
           <motion.div 
