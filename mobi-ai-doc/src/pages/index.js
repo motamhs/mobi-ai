@@ -98,7 +98,7 @@ export default function Home() {
 
   // Estatísticas de impacto
   const stats = [
-    { value: '93%', label: 'Redução no tempo de produção' },
+    { value: '96%', label: 'Redução no tempo de produção' },
     { value: '51%', label: 'Maior consistência de dados' },
     { value: '3.5x', label: 'Aumento na produtividade' }
   ];
