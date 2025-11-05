@@ -100,7 +100,7 @@ export default function Home() {
   const stats = [
     { value: '96%', label: 'Redução no tempo de produção' },
     { value: '51%', label: 'Maior consistência de dados' },
-    { value: '3.5x', label: 'Aumento na produtividade' }
+    { value: '25x', label: 'Aumento na produtividade' }
   ];
 
   // Benefícios do sistema
