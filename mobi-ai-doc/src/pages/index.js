@@ -127,7 +127,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <img src="img/logos_mobi/logo_mobi_branca.png" alt="Logo MOBI AI" />
+            <img src="img/logos_mobi/Group 6.png" alt="Logo MOBI AI" />
           </motion.div>
           
           <motion.h1
@@ -136,7 +136,7 @@ export default function Home() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="hero-tagline"
           >
-            Inteligência Artificial para o Mercado Automotivo
+            Inteligência Artificial para Priorização de Auditorias
           </motion.h1>
           
           <motion.p 
